@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+#message-box {
+  display: flex;
+  gap: 5px;
+}

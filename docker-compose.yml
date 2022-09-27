@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  vite:
+    build: .
+    command: npm run dev --host
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app

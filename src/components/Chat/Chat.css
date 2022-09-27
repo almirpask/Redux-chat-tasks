@@ -1,0 +1,21 @@
+.message-user {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(161, 144, 144);
+}
+.message-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(182, 178, 178);
+  margin: 0;
+  width: 100%;
+}
+.message-text:not(:last-child) {
+  border-bottom: 1px dashed rgb(73, 73, 82);
+  margin-bottom: 5px;
+}
+
+.chat-container {
+  flex: 1;
+  padding-right: 15px;
+}
